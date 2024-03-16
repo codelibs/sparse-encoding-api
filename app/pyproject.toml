@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sparse-encoding-api"
+version = "1.0.0"
+description = "Sparse Encoding Server"
+authors = ["CodeLibs, Inc. <info@codelibs.co>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "4.38.2"
+fastapi = "0.110.0"
+uvicorn = "0.27.1"
+torch = "2.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
